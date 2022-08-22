@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estevão Lopes</title>
+    <link rel="stylesheet" href="cs/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    
+    <header id="header">
+       
+        <div class="navbar fixed-top navbar-expand-sm">
+
+            
+
+            <span class="nav-brand float-start">
+                <h2>Estevão Lopes</h2>
+            </span>
+
+            <button id="btn-mobile" data-toggle="collapse" data-target="#nav-principal">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav menu" id="navmenu" >
+                    <li class="navitem"><a href="#header">Home</a></li>
+                    <li class="navitem"><a href="#home">Sobre mim</a></li>
+                    <li class="navitem"><a href="#icons">Tecnologias</a></li>
+                    <li class="navitem"><a href="#projetos">Projetos</a></li>
+                    <li class="navitem"><a href="#contato">Contato</a></li>
+                </ul>
+
+
+                <div class="redessociaistopo">
+                    <span><a href="https://www.linkedin.com/in/estev%C3%A3o-lopes-5a464b179/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></span>
+                    <span><a href="https://github.com/estevaolopesxd" target="_blank"><i class="fa-brands fa-square-github fa-xl"></i></a></span>
+                </div>
+                
+            </div>
+                
+            
+        </div>
+
+    </header>
+
+
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ola text-white">
+                    <h5>Olá, eu sou o</h5>
+                    <h1>Estevão Lopes C.</h1>
+                    <p>
+                        Desenvolvedor FullStack, uso principalmente as tecnologias: HTML, CSS, JAVASCRIPT e PHP
+                    </p>
+                    <span class="cv">
+                        <button class="btn btn-outline-danger"><a href="docs/Profile.pdf" download="">Baixar CV <i class="fa-regular fa-circle-down"></i></a></button>
+                        <button class="btn btn-outline-danger"><a href="https://github.com/estevaolopesxd?tab=repositories" target="_blank">Projetos <i class="fa-regular fa-eye"></i></a></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="fotoeu"src="img/eu.png" width="250px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremim">
+        <div class="container">
+            <div class="row text-white">
+                <h1>Sobre mim:</h1>
+                <p>
+                    Olá, meu nome é Filipe Estevão Lopes Correia, tenho 25 anos, estou cursando o 2º Período de Analise e Desenvolvento de Sistemas na 
+                    Instituição de Ensino - Pitágoras.<br> Venho estudando e me qualificando aproximadamente a 1 ano e 6 meses, nesse período consegui adquirir conhecimentos em
+                    HTML5, CSS, JavaScript e atualmente estudando PHP com Laravel e o Python.<br>
+                    Sempre estou procurando me atualizar e aprender mais com as tecnologias em alta do mercado.
+                    Atualmente estou buscando me aprofundar meus conhecimentos em JavaScript PHP e Python.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 sobremim2">
+
+                    <span class="img3">
+                        <img src="img/3.png" width="180px">
+                    </span> 
+                </div>
+
+                <div class="col-md-10 text-white">
+                    <p class="sobremim2_1" id="icons">
+                        Meses de experiência profissional. Utilizando no dia a dia como principal ferramenta o, JavaScript, PHP com o framework Laravel,
+                        Git e o GitHub.
+                        Ainda nessa experiência pude adquirir bons conhecimentos em Metodologia Agil e criei varios projetos que ainda estou subindo para o repositorio
+                        GitHub.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="tecnologias">
+        <div class="container">
+
+            <div class="instrucoes text-white" id="instrucoes">
+                <p class="">/* Passe o mouse por cima dos icones para saber mais */</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 tech">
+                    <img src="img/html.png" width="80px" onmouseover="overHtml()" onmouseout="outHtml()">
+                    <img src="img/css.png" width="90px"  onmouseover="overCss()" onmouseout="outCss()">
+                    <img src="img/js.png" width="100px"  onmouseover="overJs()" onmouseout="outJs()">
+                    <img src="img/php.png" width="80px"  onmouseover="overPhp()" onmouseout="outPhp()">
+                    <img src="img/python.png" width="80px" onmouseover="overPy()" onmouseout="outPy()">
+                </div>
+            </div>
+
+
+
+
+            <div id="campoinstrucoes" class="instrucao text-white">
+          
+            </div>
+        </div>
+
+
+
+
+        
+
+   </section>
+
+
+
+  <section id="habilidades">
+    <div class="container">
+        <div class="row">
+            <h1>Habilidades Adicionais:</h1>
+
+                <div class="iconeshab text-white">
+                    <div class="col-md-4">
+                        <img src="img/excel.png" width="80px">
+
+                        <p>
+                            Experiencias em utilizar o Microsoft Excel com<br>
+                             rotinas administrativas e planejamentos de marketing
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/design.jpg" width="80px">
+                        <p>
+                            Conheço as ferramentas: Photoshop, After Effects,<br> Corel Draw e o Canva.
+                            Já trabalhei como <br> freelancer fazendo design digital
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/comunicacao.png.crdownload" width="80px">
+                        <p>
+                            Tenho muita facilidade com comunicação,<br> desenvolver uma conversa e entender<br> o possivel "Cliente".
+                        </p>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+<section id="projetos">
+    <div class="container">
+        <div class="row">
+            <h1>Projetos:</h1>
+            
+                <div class="text-white">
+                    <p>Trabalhei em muitos projetos no decorrer dos meus estudos como Desenvolvedor Web, abaixo estão alguns dos projetos em funcionamento e seus repositórios.</p>
+                </div>
+            <div class="col-md-3">
+                
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/finans.png" class="card-img-top" alt="..." height="170px">
+                            <div class="card-body">
+                                <p class="card-text"><span class="corvermelha">Finans</span> - Um site criado para estudo do Boostrap e suas classes, voltado para o mercado da contabilidade!</p>
+                                <button class="btn btn-danger"><a href="https://github.com/estevaolopesxd/Finans" target="_blank">Saiba mais!</a></button>
+                            </div>
+                    </div>
+                
+            </div>
+
+            <div class="col-md-3">
+                    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/spotify.png" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                            <p class="card-text"><span class="corvermelha">Spotify</span> - Site clone para meios de estudo e aprendizado, foi bem legal desenvolver um site de mercado forte!</p>
+                            <button class="btn btn-danger"><a href="https://github.com/estevaolopesxd/Spotify-Clone" target="_blank">Saiba mais!</a></button>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/netflex.png" class="card-img-top" alt="..." height="170px">
+                        <div class="card-body">
+                            <p class="card-text"><span class="corvermelha">Netflex</span> - Site também clone para estudo, aprendendo tambem uma nova ferramenta o Owl Carrousel.</p>
+                            <button class="btn btn-danger"><a href="https://github.com/estevaolopesxd/Netflex" target="_blank">Saiba mais!</a></button>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="img/matamosca.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><span class="corvermelha">Mata Mosca</span> - Um jogo criado, objetivo é matar as moscas que aparecem aleatóriamente na tela, com 3 niveis de dificuldade</p>
+                            <button class="btn btn-danger"><a href="https://github.com/estevaolopesxd/Mata-Mosquito" target="_blank">Saiba mais!</a></button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<section id="contato">
+    <div class="contatotext">
+        <h3> Entre em contato, vamos desenvolver!</h3>
+    </div>
+
+    <div class="contatoicons">
+        <a href="https://www.linkedin.com/in/estev%C3%A3o-lopes-5a464b179/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <a href="https://github.com/estevaolopesxd" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5531994314485&text=E%20ai%2C%20vamos%20codar%3F!!" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+    </div>
+</section>
+
+
+
+<footer class="text-white">
+    <p>2022 Estevão Lopes Correia            Web Developer</p>
+</footer>
+
+    <script src="js/main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/47c9c3ebd3.js" crossorigin="anonymous"></script>
+</body>
+</html>
